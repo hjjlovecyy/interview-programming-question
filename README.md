@@ -22,5 +22,17 @@ For Example:
     1
     
 Should use standard IO: `System.in` and `System.out`.
+##### Question 2: [Generate Different String](./src/main/java/or/hjj/interview/CreatUniqueString.java)
+Description:
 
-may this help you!
+    Use 1-9, a-z and A-Z to generate an ID (Sring) with a length of 4 without repetition. Write two methods, 
+    one is to get an ID without repetition and one is to get the total number of generated ids.
+    
+Two Method:
+```Java
+public String generator() {}
+public int getTotal() {}
+```
+
+
+### may this repo help you!
