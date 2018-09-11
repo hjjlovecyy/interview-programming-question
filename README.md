@@ -45,6 +45,19 @@ Method:
 ```Java
 public static int[] together(int[] A,int[] B) {}
 ```
+#### Question 4: [Find subset according to target](./src/main/java/or/hjj/interview/FindArraySubset.java)
+Description:
+    
+    Given an array(all the values in this array is positive) and a target value, the subsets whose sum is 
+    equal to target should be found. The value in the subsets could be repeated.
+
+For Example:
+
+    Input: array={2, 3, 7, 9}, target=9
+    
+    output: {9}, {2, 7}, {3, 3, 3}, {2, 2, 2, 3}
+    
 
 
-### may this repo help you!
+
+### May this repo help you!
