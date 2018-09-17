@@ -7,19 +7,19 @@ public class FindArraySubset {
     public static void main(String[] args) {
         int[] source = {3, 2, 7, 9};
         int target = 9;
-        int temp = 0;
 
         // sort the input array
         Arrays.sort(source);
+        int[] tempSource = reduceArray(source, target);
 
         if (target < source[0]) {
             System.out.println("no subset exist!");
         } else {
-            int cycNum = target / source[0];
+            int cycNum = target / tempSource[0];
 
             for (int i = 1; i <= cycNum; i++) {
                 int[] cache = new int[i];
-                recursionFind(source, target, cache, i, i);
+                recursionFind(tempSource, target, cache, i, i);
             }
 
             result.forEach(System.out::println);
