@@ -45,7 +45,7 @@ Method:
 ```Java
 public static int[] together(int[] A,int[] B) {}
 ```
-#### Question 4: [Find subset according to target](./src/main/java/or/hjj/interview/FindArraySubset.java)
+#### Question 4": [Find subset according to target](./src/main/java/or/hjj/interview/FindArraySubset.java)
 Description:
     
     Given an array(all the values in this array is positive) and a target value, the subsets whose sum is 
@@ -57,7 +57,17 @@ For Example:
     
     output: {9}, {2, 7}, {3, 3, 3}, {2, 2, 2, 3}
     
+#### Question 4": [Two strings' optimal path](./src/main/java/or/hjj/interview/OptimalPath.java)
+Description:
+    
+    Given two string, one is target string, another is source string.Please calculate how much step can one
+    source changing into target. Only deletion and addition can be used.
+    
+For Example:
 
+    Input: target: "abcd", source: "acc"
+    
+    output: 3 (1. -c; 2. +b; 3. +d)
 
 
 ### May this repo help you!
