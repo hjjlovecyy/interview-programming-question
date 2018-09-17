@@ -57,7 +57,7 @@ For Example:
     
     output: {9}, {2, 7}, {3, 3, 3}, {2, 2, 2, 3}
     
-#### Question 4": [Two strings' optimal path](./src/main/java/or/hjj/interview/OptimalPath.java)
+#### Question 5": [Two strings' optimal path](./src/main/java/or/hjj/interview/OptimalPath.java)
 Description:
     
     Given two string, one is target string, another is source string.Please calculate how much step can one
