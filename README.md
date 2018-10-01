@@ -68,6 +68,12 @@ For Example:
     Input: target: "abcd", source: "acc"
     
     output: 3 (1. -c; 2. +b; 3. +d)
+    
+#### Question 5": [String Pattern Matching](./src/main/java/or/hjj/interview/match/README.md)
+Description:
+    
+    Given two string, one is source, another is pattern. Please calculate the pattern string's location in 
+    source string and return its index.
 
 
 ### May this repo help you!
